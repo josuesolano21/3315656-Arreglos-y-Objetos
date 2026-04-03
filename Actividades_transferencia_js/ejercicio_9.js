@@ -2,3 +2,15 @@
 tres objetos. Cada objeto debe representar un producto con propiedades como
 nombre, precio y disponibilidad. Recorra el arreglo y muestre solo el nombre de
 cada producto.*/
+
+// Crear arreglo de objetos
+let productos = [
+    { nombre: "Laptop", precio: 2500000, disponibilidad: true },
+    { nombre: "Mouse", precio: 50000, disponibilidad: true },
+    { nombre: "Teclado", precio: 120000, disponibilidad: false }
+];
+
+// Recorrer el arreglo y mostrar solo los nombres
+for (let producto of productos) {
+    console.log(producto.nombre);
+}
